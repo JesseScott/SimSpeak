@@ -43,12 +43,12 @@
 		2DE7FE3019A7016F00FBF5AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DE7FE3219A7017000FBF5AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DE7FE3419A7017000FBF5AE /* SimSpeak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimSpeak-Prefix.pch"; sourceTree = "<group>"; };
-		2DE7FE3519A7017000FBF5AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2DE7FE3619A7017000FBF5AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DE7FE3519A7017000FBF5AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CODE/Delegate/AppDelegate.h; sourceTree = "<group>"; };
+		2DE7FE3619A7017000FBF5AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CODE/Delegate/AppDelegate.m; sourceTree = "<group>"; };
 		2DE7FE3919A7017100FBF5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		2DE7FE3C19A7017100FBF5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		2DE7FE3E19A7017100FBF5AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2DE7FE3F19A7017100FBF5AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DE7FE3E19A7017100FBF5AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = CODE/ViewControllers/ViewController.h; sourceTree = "<group>"; };
+		2DE7FE3F19A7017100FBF5AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = CODE/ViewControllers/ViewController.m; sourceTree = "<group>"; };
 		2DE7FE4119A7017100FBF5AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2DE7FE4719A7017100FBF5AE /* SimSpeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimSpeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE7FE4819A7017100FBF5AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,12 +114,8 @@
 		2DE7FE2C19A7016F00FBF5AE /* SimSpeak */ = {
 			isa = PBXGroup;
 			children = (
-				2DE7FE3519A7017000FBF5AE /* AppDelegate.h */,
-				2DE7FE3619A7017000FBF5AE /* AppDelegate.m */,
-				2DE7FE3819A7017100FBF5AE /* Main_iPhone.storyboard */,
-				2DE7FE3B19A7017100FBF5AE /* Main_iPad.storyboard */,
-				2DE7FE3E19A7017100FBF5AE /* ViewController.h */,
-				2DE7FE3F19A7017100FBF5AE /* ViewController.m */,
+				2DE7FE5F19A7022800FBF5AE /* CODE */,
+				2DE7FE5E19A7021E00FBF5AE /* STORYBOARDS */,
 				2DE7FE4119A7017100FBF5AE /* Images.xcassets */,
 				2DE7FE2D19A7016F00FBF5AE /* Supporting Files */,
 			);
@@ -153,6 +149,26 @@
 				2DE7FE5119A7017200FBF5AE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE7FE5E19A7021E00FBF5AE /* STORYBOARDS */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7FE3819A7017100FBF5AE /* Main_iPhone.storyboard */,
+				2DE7FE3B19A7017100FBF5AE /* Main_iPad.storyboard */,
+			);
+			name = STORYBOARDS;
+			sourceTree = "<group>";
+		};
+		2DE7FE5F19A7022800FBF5AE /* CODE */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7FE3519A7017000FBF5AE /* AppDelegate.h */,
+				2DE7FE3619A7017000FBF5AE /* AppDelegate.m */,
+				2DE7FE3E19A7017100FBF5AE /* ViewController.h */,
+				2DE7FE3F19A7017100FBF5AE /* ViewController.m */,
+			);
+			name = CODE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
