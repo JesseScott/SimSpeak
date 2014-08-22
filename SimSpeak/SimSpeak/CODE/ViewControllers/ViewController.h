@@ -9,9 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
+    // Screen Index
+    NSInteger screenIndex;
     
+    // Custom Font
+    UIFont *titleFont, *subtitleFont, *bodyFont;
 }
 
+@property (nonatomic, copy) IBOutlet UILabel *title;
+@property (weak, nonatomic) IBOutlet UILabel *subtitle;
+@property (weak, nonatomic) IBOutlet UITextView *body;
 
 
 @end

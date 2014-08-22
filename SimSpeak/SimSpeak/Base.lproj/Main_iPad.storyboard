@@ -41,6 +41,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="body" destination="6mU-Fr-KGA" id="Z8R-so-kI8"/>
+                        <outlet property="subtitle" destination="ja4-MS-2uM" id="pfM-Px-AIP"/>
+                        <outlet property="title" destination="c4y-YJ-3wB" id="nuK-dn-xft"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -22,6 +22,12 @@
 		2DE7FE4B19A7017100FBF5AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE7FE2A19A7016F00FBF5AE /* UIKit.framework */; };
 		2DE7FE5319A7017200FBF5AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7FE5119A7017200FBF5AE /* InfoPlist.strings */; };
 		2DE7FE5519A7017200FBF5AE /* SimSpeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE7FE5419A7017200FBF5AE /* SimSpeakTests.m */; };
+		2DE7FE6B19A704CD00FBF5AE /* 01.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7FE6319A704CC00FBF5AE /* 01.plist */; };
+		2DE7FE6C19A704CD00FBF5AE /* 01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7FE6419A704CC00FBF5AE /* 01.txt */; };
+		2DE7FE6D19A704CD00FBF5AE /* 02.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7FE6619A704CC00FBF5AE /* 02.plist */; };
+		2DE7FE6E19A704CD00FBF5AE /* 02.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7FE6719A704CC00FBF5AE /* 02.txt */; };
+		2DE7FE6F19A704CD00FBF5AE /* 03.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7FE6919A704CC00FBF5AE /* 03.plist */; };
+		2DE7FE7019A704CD00FBF5AE /* 03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7FE6A19A704CD00FBF5AE /* 03.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		2DE7FE5019A7017200FBF5AE /* SimSpeakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimSpeakTests-Info.plist"; sourceTree = "<group>"; };
 		2DE7FE5219A7017200FBF5AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DE7FE5419A7017200FBF5AE /* SimSpeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimSpeakTests.m; sourceTree = "<group>"; };
+		2DE7FE6319A704CC00FBF5AE /* 01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 01.plist; path = ../01/01.plist; sourceTree = "<group>"; };
+		2DE7FE6419A704CC00FBF5AE /* 01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 01.txt; path = ../01/01.txt; sourceTree = "<group>"; };
+		2DE7FE6619A704CC00FBF5AE /* 02.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 02.plist; path = ../02/02.plist; sourceTree = "<group>"; };
+		2DE7FE6719A704CC00FBF5AE /* 02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 02.txt; path = ../02/02.txt; sourceTree = "<group>"; };
+		2DE7FE6919A704CC00FBF5AE /* 03.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 03.plist; sourceTree = "<group>"; };
+		2DE7FE6A19A704CD00FBF5AE /* 03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 03.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,7 @@
 		2DE7FE2C19A7016F00FBF5AE /* SimSpeak */ = {
 			isa = PBXGroup;
 			children = (
+				2DE7FE6019A704CC00FBF5AE /* ASSETS */,
 				2DE7FE5F19A7022800FBF5AE /* CODE */,
 				2DE7FE5E19A7021E00FBF5AE /* STORYBOARDS */,
 				2DE7FE4119A7017100FBF5AE /* Images.xcassets */,
@@ -169,6 +182,54 @@
 				2DE7FE3F19A7017100FBF5AE /* ViewController.m */,
 			);
 			name = CODE;
+			sourceTree = "<group>";
+		};
+		2DE7FE6019A704CC00FBF5AE /* ASSETS */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7FE6119A704CC00FBF5AE /* Text Copy */,
+			);
+			path = ASSETS;
+			sourceTree = "<group>";
+		};
+		2DE7FE6119A704CC00FBF5AE /* Text Copy */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7FE6219A704CC00FBF5AE /* 01 */,
+				2DE7FE6519A704CC00FBF5AE /* 02 */,
+				2DE7FE6819A704CC00FBF5AE /* 03 */,
+			);
+			path = "Text Copy";
+			sourceTree = "<group>";
+		};
+		2DE7FE6219A704CC00FBF5AE /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7FE6319A704CC00FBF5AE /* 01.plist */,
+				2DE7FE6419A704CC00FBF5AE /* 01.txt */,
+			);
+			name = 01;
+			path = "01 TITLE";
+			sourceTree = "<group>";
+		};
+		2DE7FE6519A704CC00FBF5AE /* 02 */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7FE6619A704CC00FBF5AE /* 02.plist */,
+				2DE7FE6719A704CC00FBF5AE /* 02.txt */,
+			);
+			name = 02;
+			path = "02 AGENDA";
+			sourceTree = "<group>";
+		};
+		2DE7FE6819A704CC00FBF5AE /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				2DE7FE6919A704CC00FBF5AE /* 03.plist */,
+				2DE7FE6A19A704CD00FBF5AE /* 03.txt */,
+			);
+			name = 03;
+			path = "03 SCREEN";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +310,14 @@
 			files = (
 				2DE7FE3D19A7017100FBF5AE /* Main_iPad.storyboard in Resources */,
 				2DE7FE4219A7017100FBF5AE /* Images.xcassets in Resources */,
+				2DE7FE6D19A704CD00FBF5AE /* 02.plist in Resources */,
 				2DE7FE3A19A7017100FBF5AE /* Main_iPhone.storyboard in Resources */,
+				2DE7FE6F19A704CD00FBF5AE /* 03.plist in Resources */,
+				2DE7FE7019A704CD00FBF5AE /* 03.txt in Resources */,
 				2DE7FE3119A7016F00FBF5AE /* InfoPlist.strings in Resources */,
+				2DE7FE6B19A704CD00FBF5AE /* 01.plist in Resources */,
+				2DE7FE6E19A704CD00FBF5AE /* 02.txt in Resources */,
+				2DE7FE6C19A704CD00FBF5AE /* 01.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
