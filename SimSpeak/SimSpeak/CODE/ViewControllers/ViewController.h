@@ -16,7 +16,7 @@
     UIFont *titleFont, *subtitleFont, *bodyFont;
 }
 
-@property (nonatomic, copy) IBOutlet UILabel *title;
+@property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UILabel *subtitle;
 @property (weak, nonatomic) IBOutlet UITextView *body;
 
